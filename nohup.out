@@ -1,0 +1,107 @@
+[  41335]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+[  64326]   WARN - .ExternalResourceManagerExImpl - Cannot find standard resource. filename:/META-INF/tapestry_5_3.xsd class=class com.intellij.javaee.ResourceRegistrarImpl, classLoader:null 
+[ 141921]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  SBT) or icon jar:file:/home/sandman/.IntelliJIdea14/config/plugins/Scala/lib/scala-plugin.jar!/sbt.png 
+[6897565]  ERROR - aemon.impl.PassExecutorService - Cannot create expression from text (<.li).apply 
+com.intellij.util.IncorrectOperationException: Cannot create expression from text (<.li).apply
+	at org.jetbrains.plugins.scala.lang.psi.impl.ScalaPsiElementFactory$.createExpressionFromText(ScalaPsiElementFactory.scala:149)
+	at org.jetbrains.plugins.scala.codeInspection.collections.InvocationTemplate.unapplySeq(InvocationTemplate.scala:41)
+	at org.jetbrains.plugins.scala.codeInspection.collections.LastIndexToLast$.getSimplification(LastIndexToLastInspection.scala:19)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$org$jetbrains$plugins$scala$codeInspection$collections$OperationOnCollectionInspectionBase$$simplifications$1.apply(OperationOnCollectionInspectionBase.scala:68)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$org$jetbrains$plugins$scala$codeInspection$collections$OperationOnCollectionInspectionBase$$simplifications$1.apply(OperationOnCollectionInspectionBase.scala:68)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:252)
+	at scala.collection.mutable.ArrayOps$ofRef.flatMap(ArrayOps.scala:186)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase.org$jetbrains$plugins$scala$codeInspection$collections$OperationOnCollectionInspectionBase$$simplifications(OperationOnCollectionInspectionBase.scala:68)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$actionFor$1.applyOrElse(OperationOnCollectionInspectionBase.scala:55)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$actionFor$1.applyOrElse(OperationOnCollectionInspectionBase.scala:53)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+	at org.jetbrains.plugins.scala.extensions.VisitorWrapper.visitElement(VisitorWrapper.scala:11)
+	at com.intellij.psi.impl.PsiElementBase.accept(PsiElementBase.java:274)
+	at org.jetbrains.plugins.scala.lang.psi.ScalaPsiElementImpl.accept(ScalaPsiElementImpl.scala:21)
+	at org.jetbrains.plugins.scala.lang.psi.impl.expr.ScMethodCallImpl.accept(ScMethodCallImpl.scala:41)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:80)
+	at com.intellij.codeInspection.InspectionEngine.createVisitorAndAcceptElements(InspectionEngine.java:69)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.a(LocalInspectionsPass.java:285)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.access$200(LocalInspectionsPass.java:75)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$2.process(LocalInspectionsPass.java:254)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$2.process(LocalInspectionsPass.java:251)
+	at com.intellij.concurrency.ApplierCompleter.a(ApplierCompleter.java:122)
+	at com.intellij.concurrency.ApplierCompleter.access$000(ApplierCompleter.java:44)
+	at com.intellij.concurrency.ApplierCompleter$1.run(ApplierCompleter.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1098)
+	at com.intellij.concurrency.ApplierCompleter$2.run(ApplierCompleter.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.concurrency.ApplierCompleter.a(ApplierCompleter.java:106)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:82)
+	at jsr166e.CountedCompleter.exec(CountedCompleter.java:684)
+	at jsr166e.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at jsr166e.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:858)
+	at jsr166e.ForkJoinPool.scan(ForkJoinPool.java:1687)
+	at jsr166e.ForkJoinPool.runWorker(ForkJoinPool.java:1642)
+	at jsr166e.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:109)
+Caused by: com.intellij.openapi.progress.ProcessCanceledException
+[6897607]  ERROR - aemon.impl.PassExecutorService - IntelliJ IDEA 14.1.4  Build #IU-141.1532.4 
+[6897608]  ERROR - aemon.impl.PassExecutorService - JDK: 1.7.0_79 
+[6897608]  ERROR - aemon.impl.PassExecutorService - VM: OpenJDK 64-Bit Server VM 
+[6897608]  ERROR - aemon.impl.PassExecutorService - Vendor: Oracle Corporation 
+[6897608]  ERROR - aemon.impl.PassExecutorService - OS: Linux 
+[6897608]  ERROR - aemon.impl.PassExecutorService - Last Action: EditorBackSpace 
+[6897608]  ERROR - aemon.impl.PassExecutorService - Current Command:  
+[7145350]  ERROR - aemon.impl.PassExecutorService - Cannot create expression from text (jQuery).apply 
+com.intellij.util.IncorrectOperationException: Cannot create expression from text (jQuery).apply
+	at org.jetbrains.plugins.scala.lang.psi.impl.ScalaPsiElementFactory$.createExpressionFromText(ScalaPsiElementFactory.scala:149)
+	at org.jetbrains.plugins.scala.codeInspection.collections.InvocationTemplate.unapplySeq(InvocationTemplate.scala:41)
+	at org.jetbrains.plugins.scala.codeInspection.collections.RangeToIndices$.getSimplification(RangeToIndicesInspection.scala:19)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$org$jetbrains$plugins$scala$codeInspection$collections$OperationOnCollectionInspectionBase$$simplifications$1.apply(OperationOnCollectionInspectionBase.scala:68)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$org$jetbrains$plugins$scala$codeInspection$collections$OperationOnCollectionInspectionBase$$simplifications$1.apply(OperationOnCollectionInspectionBase.scala:68)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:252)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186)
+	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:252)
+	at scala.collection.mutable.ArrayOps$ofRef.flatMap(ArrayOps.scala:186)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase.org$jetbrains$plugins$scala$codeInspection$collections$OperationOnCollectionInspectionBase$$simplifications(OperationOnCollectionInspectionBase.scala:68)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$actionFor$1.applyOrElse(OperationOnCollectionInspectionBase.scala:55)
+	at org.jetbrains.plugins.scala.codeInspection.collections.OperationOnCollectionInspectionBase$$anonfun$actionFor$1.applyOrElse(OperationOnCollectionInspectionBase.scala:53)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+	at org.jetbrains.plugins.scala.extensions.VisitorWrapper.visitElement(VisitorWrapper.scala:11)
+	at com.intellij.psi.impl.PsiElementBase.accept(PsiElementBase.java:274)
+	at org.jetbrains.plugins.scala.lang.psi.ScalaPsiElementImpl.accept(ScalaPsiElementImpl.scala:21)
+	at org.jetbrains.plugins.scala.lang.psi.impl.expr.ScMethodCallImpl.accept(ScMethodCallImpl.scala:41)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:80)
+	at com.intellij.codeInspection.InspectionEngine.createVisitorAndAcceptElements(InspectionEngine.java:69)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.a(LocalInspectionsPass.java:285)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.access$200(LocalInspectionsPass.java:75)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$2.process(LocalInspectionsPass.java:254)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass$2.process(LocalInspectionsPass.java:251)
+	at com.intellij.concurrency.ApplierCompleter.a(ApplierCompleter.java:122)
+	at com.intellij.concurrency.ApplierCompleter.access$000(ApplierCompleter.java:44)
+	at com.intellij.concurrency.ApplierCompleter$1.run(ApplierCompleter.java:85)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1098)
+	at com.intellij.concurrency.ApplierCompleter$2.run(ApplierCompleter.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.a(CoreProgressManager.java:449)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.concurrency.ApplierCompleter.a(ApplierCompleter.java:106)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:82)
+	at jsr166e.CountedCompleter.exec(CountedCompleter.java:684)
+	at jsr166e.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at jsr166e.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:858)
+	at jsr166e.ForkJoinPool.scan(ForkJoinPool.java:1687)
+	at jsr166e.ForkJoinPool.runWorker(ForkJoinPool.java:1642)
+	at jsr166e.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:109)
+Caused by: com.intellij.openapi.progress.ProcessCanceledException
+[7145352]  ERROR - aemon.impl.PassExecutorService - IntelliJ IDEA 14.1.4  Build #IU-141.1532.4 
+[7145352]  ERROR - aemon.impl.PassExecutorService - JDK: 1.7.0_79 
+[7145352]  ERROR - aemon.impl.PassExecutorService - VM: OpenJDK 64-Bit Server VM 
+[7145352]  ERROR - aemon.impl.PassExecutorService - Vendor: Oracle Corporation 
+[7145352]  ERROR - aemon.impl.PassExecutorService - OS: Linux 
+[7145352]  ERROR - aemon.impl.PassExecutorService - Last Action: SaveAll 
+[7145352]  ERROR - aemon.impl.PassExecutorService - Current Command:  
