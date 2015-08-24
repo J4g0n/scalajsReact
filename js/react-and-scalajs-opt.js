@@ -2218,13 +2218,10 @@ var $h_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
 });
 $h_LreactAndScala_webapp_ReactAndScalaJS$.prototype = $c_LreactAndScala_webapp_ReactAndScalaJS$.prototype;
 $c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.main__Lorg_scalajs_dom_raw_Element__V = (function(htmlNode) {
-  var this$2 = $m_s_Console$();
-  var this$3 = this$2.outVar$2;
-  $as_Ljava_io_PrintStream(this$3.tl$1.get__O()).println__O__V("Hello!");
   var c = new $c_Ljapgolly_scalajs_react_ReactComponentB$P().init___T("HelloMessage").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1().init___());
-  var this$7 = new $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c);
+  var this$4 = new $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c);
   var ev = $m_s_Predef$().scala$Predef$$singleton$und$eq$colon$eq$f;
-  var HelloMessage = $as_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(this$7.propsConst__F0__Ljapgolly_scalajs_react_ReactComponentB$Builder(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(ev$1) {
+  var HelloMessage = $as_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(this$4.propsConst__F0__Ljapgolly_scalajs_react_ReactComponentB$Builder(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(ev$1) {
     return (function() {
       return (void 0)
     })
@@ -7243,7 +7240,7 @@ $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype.apply__O__O = (fun
 });
 $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype.apply__sr_BoxedUnit__Ljapgolly_scalajs_react_ReactElement = (function(x$1) {
   $m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$();
-  var t = ($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_package$Tags$()).div$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode(($m_Ljapgolly_scalajs_react_package$(), "Hello from scala")))]));
+  var t = ($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_package$Tags$()).div$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode(($m_Ljapgolly_scalajs_react_package$(), "Hello from Scala and React")))]));
   return t.render__Ljapgolly_scalajs_react_ReactElement()
 });
 var $d_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1 = new $TypeData().initClass({

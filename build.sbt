@@ -1,8 +1,8 @@
-//import com.lihaoyi.workbench.Plugin._
+import com.lihaoyi.workbench.Plugin._
 
 enablePlugins(ScalaJSPlugin)
 
-//workbenchSettings
+workbenchSettings
 
 name := "React and scalajs"
 
@@ -62,6 +62,6 @@ ideaExcludeFolders += ".idea"
 ideaExcludeFolders += ".idea_modules"
 
 
-// bootSnippet := "reactAndScala.webapp.ReactAndScalaJS().main(document.getElementById('application');"
+bootSnippet := "reactAndScala.webapp.ReactAndScalaJS().main(document.getElementById('application');"
 
-// updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)
+updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)
