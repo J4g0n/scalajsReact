@@ -7,7 +7,7 @@ import org.scalajs.jquery.jQuery
 object ReactAndScalaJSTest extends TestSuite {
 
   // Initialize App
-  ReactAndScalaJS.setupUI()
+  //ReactAndScalaJS.setupUI()
 
   def tests = TestSuite {
     'HelloWorld {

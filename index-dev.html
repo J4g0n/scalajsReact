@@ -6,12 +6,16 @@
 </head>
 <body>
 <!-- Include JavaScript dependencies -->
-<script type="text/javascript" src="./target/scala-2.11/react-and-scalajs-fastopt.js"></script>
-<script type="text/javascript" src="./target/scala-2.11/react-and-scalajs-jsdeps.js"></script>
+<script type="text/javascript" src="./js/react-and-scalajs-jsdeps.js"></script>
+
+<script type="text/javascript" src="./js/react-and-scalajs-opt.js"></script>
+<!-- <script type="text/javascript" src="/workbench.js"></script> -->
+
+<section id="application"></section>
 
 <script type="text/javascript">
-    reactAndScala.webapp.ReactAndScalaJS().main();
+    reactAndScala.webapp.ReactAndScalaJS().main(document.getElementById('application'));
 </script>
-<button id="click-me-button" type="button" onclick="reactAndScala.webapp.ReactAndScalaJS().addClickedMessage()">Click me!</button>
+<!-- <button id="click-me-button" type="button" onclick="reactAndScala.webapp.ReactAndScalaJS().addClickedMessage()">Click me!</button> -->
 </body>
 </html>

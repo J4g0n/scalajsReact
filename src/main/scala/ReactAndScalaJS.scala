@@ -5,15 +5,16 @@ import japgolly.scalajs.react.{React, ReactComponentB}
 import scala.scalajs.js.JSApp
 
 import org.scalajs.dom
-import dom.document
+import org.scalajs.dom.{Element, document}
 import org.scalajs.jquery.jQuery
 
 import scala.scalajs.js.annotation.JSExport
 import japgolly.scalajs.react.vdom.prefix_<^._
 
 
-object ReactAndScalaJS extends JSApp {
-  def appendPar(targetNode: dom.Node, text: String): Unit = {
+@JSExport
+object ReactAndScalaJS {
+  /*def appendPar(targetNode: dom.Node, text: String): Unit = {
     val parNode = document.createElement("p")
     val textNode = document.createTextNode(text)
     parNode.appendChild(textNode)
@@ -38,17 +39,26 @@ object ReactAndScalaJS extends JSApp {
       ^.name := "hello in react",
       "React say hello to " + name
     )
-  }
+  }*/
 
-  def main: Unit = {
+  @JSExport
+  def main(htmlNode: Element): Unit = {
     println("Hello!")
-    appendPar(document.body, "Hello World")
-    jQuery(setupUI _)
-    jQuery("body").append("<p>Cool message</p>")
-    val TestComponent = ReactComponentB[String]("TestComponent")
-      .render(name => nameList(name))
+    //appendPar(document.body, "Hello World")
+    //jQuery(setupUI _)
+    //jQuery("body").append("<p>Cool message</p>")
+    /*val TestComponent = ReactComponentB[String]("TestComponent")
+      .render(name => <.div("React say hello to ", name))
       .build
 
-    React.render(TestComponent("Simon"), document.body)
+    //Console.println("Hey ", TestComponent)
+
+    React.render(TestComponent("Simon"), document.body)*/
+
+    val HelloMessage = ReactComponentB[Unit]("HelloMessage")
+      .render(_ => <.div("Hello from scala"))
+      .buildU
+
+    React.render(HelloMessage(), htmlNode)
   }
 }

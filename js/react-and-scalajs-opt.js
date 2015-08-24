@@ -1106,35 +1106,6 @@ var $d_Ljapgolly_scalajs_react_ReactComponentB = new $TypeData().initClass({
 });
 $c_Ljapgolly_scalajs_react_ReactComponentB.prototype.$classData = $d_Ljapgolly_scalajs_react_ReactComponentB;
 /** @constructor */
-var $c_Ljapgolly_scalajs_react_ReactComponentB$ = (function() {
-  $c_O.call(this)
-});
-$c_Ljapgolly_scalajs_react_ReactComponentB$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_ReactComponentB$.prototype.constructor = $c_Ljapgolly_scalajs_react_ReactComponentB$;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_ReactComponentB$ = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_ReactComponentB$.prototype = $c_Ljapgolly_scalajs_react_ReactComponentB$.prototype;
-$c_Ljapgolly_scalajs_react_ReactComponentB$.prototype.defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder = (function(c) {
-  var c$1 = new $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c);
-  return c$1.propsRequired__Ljapgolly_scalajs_react_ReactComponentB$Builder()
-});
-var $d_Ljapgolly_scalajs_react_ReactComponentB$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_ReactComponentB$: 0
-}, false, "japgolly.scalajs.react.ReactComponentB$", {
-  Ljapgolly_scalajs_react_ReactComponentB$: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_ReactComponentB$.prototype.$classData = $d_Ljapgolly_scalajs_react_ReactComponentB$;
-var $n_Ljapgolly_scalajs_react_ReactComponentB$ = (void 0);
-var $m_Ljapgolly_scalajs_react_ReactComponentB$ = (function() {
-  if ((!$n_Ljapgolly_scalajs_react_ReactComponentB$)) {
-    $n_Ljapgolly_scalajs_react_ReactComponentB$ = new $c_Ljapgolly_scalajs_react_ReactComponentB$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_ReactComponentB$
-});
-/** @constructor */
 var $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN = (function() {
   $c_O.call(this);
   this.$$outer$1 = null
@@ -1146,6 +1117,14 @@ var $h_Ljapgolly_scalajs_react_ReactComponentB$AnchorN = (function() {
   /*<skip>*/
 });
 $h_Ljapgolly_scalajs_react_ReactComponentB$AnchorN.prototype = $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN.prototype;
+$c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN.prototype.propsConst__F0__Ljapgolly_scalajs_react_ReactComponentB$Builder = (function(p) {
+  var cc = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(p$2) {
+    return (function(x$13$2) {
+      return new $c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps().init___Ljapgolly_scalajs_react_ReactComponentCU__sjs_js_UndefOr__sjs_js_UndefOr__F0(x$13$2, (void 0), (void 0), p$2)
+    })
+  })(p));
+  return new $c_Ljapgolly_scalajs_react_ReactComponentB$Builder().init___Ljapgolly_scalajs_react_ReactComponentB__F1(this.$$outer$1, cc)
+});
 $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN.prototype.init___Ljapgolly_scalajs_react_ReactComponentB = (function($$outer) {
   if (($$outer === null)) {
     throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
@@ -1153,12 +1132,6 @@ $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN.prototype.init___Ljapgolly_sc
     this.$$outer$1 = $$outer
   };
   return this
-});
-$c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN.prototype.propsRequired__Ljapgolly_scalajs_react_ReactComponentB$Builder = (function() {
-  var cc = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(x$11$2) {
-    return new $c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps().init___Ljapgolly_scalajs_react_ReactComponentCU__sjs_js_UndefOr__sjs_js_UndefOr(x$11$2, (void 0), (void 0))
-  }));
-  return new $c_Ljapgolly_scalajs_react_ReactComponentB$Builder().init___Ljapgolly_scalajs_react_ReactComponentB__F1(this.$$outer$1, cc)
 });
 var $d_Ljapgolly_scalajs_react_ReactComponentB$AnchorN = new $TypeData().initClass({
   Ljapgolly_scalajs_react_ReactComponentB$AnchorN: 0
@@ -1523,10 +1496,6 @@ $c_Ljapgolly_scalajs_react_vdom_Builder.prototype.render__T__Ljapgolly_scalajs_r
   var jsx$1 = [tag, jsx$2]["concat"](array);
   return jsx$3["apply"](x, jsx$1)
 });
-$c_Ljapgolly_scalajs_react_vdom_Builder.prototype.addAttr__T__sjs_js_Any__V = (function(k, v) {
-  var o = this.japgolly$scalajs$react$vdom$Builder$$props$f;
-  o[k] = v
-});
 $c_Ljapgolly_scalajs_react_vdom_Builder.prototype.appendChild__Ljapgolly_scalajs_react_ReactNode__V = (function(c) {
   this.children$1["push"](c)
 });
@@ -1537,31 +1506,6 @@ var $d_Ljapgolly_scalajs_react_vdom_Builder = new $TypeData().initClass({
   O: 1
 });
 $c_Ljapgolly_scalajs_react_vdom_Builder.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Builder;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$ = (function() {
-  $c_O.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_ClassNameAttr$ = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_ClassNameAttr$.prototype = $c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_ClassNameAttr$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_ClassNameAttr$: 0
-}, false, "japgolly.scalajs.react.vdom.ClassNameAttr$", {
-  Ljapgolly_scalajs_react_vdom_ClassNameAttr$: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_ClassNameAttr$;
-var $n_Ljapgolly_scalajs_react_vdom_ClassNameAttr$ = (void 0);
-var $m_Ljapgolly_scalajs_react_vdom_ClassNameAttr$ = (function() {
-  if ((!$n_Ljapgolly_scalajs_react_vdom_ClassNameAttr$)) {
-    $n_Ljapgolly_scalajs_react_vdom_ClassNameAttr$ = new $c_Ljapgolly_scalajs_react_vdom_ClassNameAttr$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_vdom_ClassNameAttr$
-});
 /** @constructor */
 var $c_Ljapgolly_scalajs_react_vdom_Escaping$ = (function() {
   $c_O.call(this);
@@ -1590,18 +1534,9 @@ $c_Ljapgolly_scalajs_react_vdom_Escaping$.prototype.assertValidTag__T__V = (func
     throw new $c_jl_IllegalArgumentException().init___T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Illegal tag name: ", " is not a valid XML tag name"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([s])))
   }
 });
-$c_Ljapgolly_scalajs_react_vdom_Escaping$.prototype.validAttrName__T__Z = (function(s) {
-  var this$1 = this.attrNameRegex$1;
-  return new $c_ju_regex_Matcher().init___ju_regex_Pattern__jl_CharSequence__I__I(this$1, s, 0, $uI(s["length"])).matches__Z()
-});
 $c_Ljapgolly_scalajs_react_vdom_Escaping$.prototype.validTag__T__Z = (function(s) {
   var this$1 = this.tagRegex$1;
   return new $c_ju_regex_Matcher().init___ju_regex_Pattern__jl_CharSequence__I__I(this$1, s, 0, $uI(s["length"])).matches__Z()
-});
-$c_Ljapgolly_scalajs_react_vdom_Escaping$.prototype.assertValidAttrName__T__V = (function(s) {
-  if ((!this.validAttrName__T__Z(s))) {
-    throw new $c_jl_IllegalArgumentException().init___T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Illegal attribute name: ", " is not a valid XML attribute name"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([s])))
-  }
 });
 var $d_Ljapgolly_scalajs_react_vdom_Escaping$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_Escaping$: 0
@@ -1616,85 +1551,6 @@ var $m_Ljapgolly_scalajs_react_vdom_Escaping$ = (function() {
     $n_Ljapgolly_scalajs_react_vdom_Escaping$ = new $c_Ljapgolly_scalajs_react_vdom_Escaping$().init___()
   };
   return $n_Ljapgolly_scalajs_react_vdom_Escaping$
-});
-var $s_Ljapgolly_scalajs_react_vdom_Extra$Attrs$class__$$init$__Ljapgolly_scalajs_react_vdom_Extra$Attrs__V = (function($$this) {
-  $$this.className$1 = $m_Ljapgolly_scalajs_react_vdom_ClassNameAttr$();
-  $$this.cls$1 = $$this.className$1;
-  $$this.class$1 = $$this.className$1;
-  $$this.colSpan$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("colSpan"));
-  $$this.rowSpan$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("rowSpan"));
-  $$this.htmlFor$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("htmlFor"));
-  $$this.ref$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("ref"));
-  $$this.key$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("key"));
-  $$this.draggable$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("draggable"));
-  $$this.onDragStart$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDragStart"));
-  $$this.onDragEnd$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDragEnd"));
-  $$this.onDragEnter$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDragEnter"));
-  $$this.onDragOver$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDragOver"));
-  $$this.onDragLeave$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDragLeave"));
-  $$this.onDrop$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDrop"));
-  $$this.onBeforeInput$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onBeforeInput"));
-  $$this.acceptCharset$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("acceptCharset"));
-  $$this.accessKey$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("accessKey"));
-  $$this.allowFullScreen$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("allowFullScreen"));
-  $$this.allowTransparency$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("allowTransparency"));
-  $$this.async$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("async"));
-  $$this.autoCapitalize$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("autoCapitalize"));
-  $$this.autoCorrect$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("autoCorrect"));
-  $$this.autoPlay$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("autoPlay"));
-  $$this.cellPadding$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("cellPadding"));
-  $$this.cellSpacing$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("cellSpacing"));
-  $$this.classID$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("classID"));
-  $$this.contentEditable$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("contentEditable"));
-  $$this.contextMenu$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("contextMenu"));
-  $$this.controls$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("controls"));
-  $$this.coords$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("coords"));
-  $$this.crossOrigin$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("crossOrigin"));
-  $$this.dateTime$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("dateTime"));
-  $$this.defer$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("defer"));
-  $$this.defaultValue$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("defaultValue"));
-  $$this.dir$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("dir"));
-  $$this.download$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("download"));
-  $$this.encType$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("encType"));
-  $$this.formAction$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("formAction"));
-  $$this.formEncType$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("formEncType"));
-  $$this.formMethod$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("formMethod"));
-  $$this.formNoValidate$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("formNoValidate"));
-  $$this.formTarget$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("formTarget"));
-  $$this.frameBorder$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("frameBorder"));
-  $$this.headers$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("headers"));
-  $$this.hrefLang$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("hrefLang"));
-  $$this.icon$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("icon"));
-  $$this.itemProp$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("itemProp"));
-  $$this.itemScope$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("itemScope"));
-  $$this.itemType$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("itemType"));
-  $$this.list$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("list"));
-  $$this.loop$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("loop"));
-  $$this.manifest$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("manifest"));
-  $$this.marginHeight$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("marginHeight"));
-  $$this.marginWidth$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("marginWidth"));
-  $$this.maxLength$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("maxLength"));
-  $$this.mediaGroup$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("mediaGroup"));
-  $$this.multiple$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("multiple"));
-  $$this.muted$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("muted"));
-  $$this.noValidate$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("noValidate"));
-  $$this.open$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("open"));
-  $$this.poster$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("poster"));
-  $$this.preload$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("preload"));
-  $$this.radioGroup$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("radioGroup"));
-  $$this.sandbox$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("sandbox"));
-  $$this.scope$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("scope"));
-  $$this.scrolling$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("scrolling"));
-  $$this.seamless$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("seamless"));
-  $$this.selected$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("selected"));
-  $$this.shape$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("shape"));
-  $$this.sizes$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("sizes"));
-  $$this.srcDoc$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("srcDoc"));
-  $$this.srcSet$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("srcSet"));
-  $$this.step$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("step"));
-  $$this.useMap$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("useMap"));
-  $$this.wmode$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("wmode"));
-  $$this.dangerouslySetInnerHtmlAttr$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("dangerouslySetInnerHTML"))
 });
 var $s_Ljapgolly_scalajs_react_vdom_Extra$Tags$class__$$init$__Ljapgolly_scalajs_react_vdom_Extra$Tags__V = (function($$this) {
   $m_Ljapgolly_scalajs_react_vdom_Scalatags$();
@@ -1712,167 +1568,6 @@ var $s_Ljapgolly_scalajs_react_vdom_Extra$Tags$class__$$init$__Ljapgolly_scalajs
   $m_Ljapgolly_scalajs_react_vdom_Scalatags$();
   $m_Ljapgolly_scalajs_react_vdom_Escaping$().assertValidTag__T__V("menuitem");
   $$this.menuitem$1 = new $c_Ljapgolly_scalajs_react_vdom_ReactTag().init___T__sci_List__Ljapgolly_scalajs_react_vdom_Scalatags$Namespace("menuitem", $m_sci_Nil$(), namespaceConfig$2)
-});
-var $s_Ljapgolly_scalajs_react_vdom_HtmlAttrs$class__$$init$__Ljapgolly_scalajs_react_vdom_HtmlAttrs__V = (function($$this) {
-  $$this.href$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("href"));
-  $$this.action$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("action"));
-  $$this.method$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("method"));
-  $$this.id$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("id"));
-  $$this.target$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("target"));
-  $$this.name$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("name"));
-  $$this.alt$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("alt"));
-  $$this.onBlur$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onBlur"));
-  $$this.onChange$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onChange"));
-  $$this.onClick$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onClick"));
-  $$this.onDblClick$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onDblClick"));
-  $$this.onFocus$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onFocus"));
-  $$this.onKeyDown$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onKeyDown"));
-  $$this.onKeyUp$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onKeyUp"));
-  $$this.onKeyPress$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onKeyPress"));
-  $$this.onLoad$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onLoad"));
-  $$this.onMouseDown$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onMouseDown"));
-  $$this.onMouseMove$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onMouseMove"));
-  $$this.onMouseOut$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onMouseOut"));
-  $$this.onMouseOver$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onMouseOver"));
-  $$this.onMouseUp$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onMouseUp"));
-  $$this.onSelect$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onSelect"));
-  $$this.onScroll$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onScroll"));
-  $$this.onSubmit$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onSubmit"));
-  $$this.onReset$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("onReset"));
-  $$this.rel$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("rel"));
-  $$this.src$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("src"));
-  $$this.style$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("style"));
-  $$this.title$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("title"));
-  $$this.type$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("type"));
-  $$this.tpe$1 = $$this.type$1;
-  $$this.xmlns$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("xmlns"));
-  $$this.lang$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("lang"));
-  $$this.placeholder$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("placeholder"));
-  $$this.spellCheck$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("spellCheck"));
-  $$this.value$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("value"));
-  $$this.accept$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("accept"));
-  $$this.autoComplete$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("autoComplete"));
-  $$this.autoFocus$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("autoFocus"));
-  $$this.checked$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("checked"));
-  $$this.charset$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("charset"));
-  $$this.disabled$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("disabled"));
-  $$this.for$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("htmlFor"));
-  $$this.readOnly$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("readOnly"));
-  $$this.required$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("required"));
-  $$this.rows$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("rows"));
-  $$this.cols$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("cols"));
-  $$this.size$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("size"));
-  $$this.tabIndex$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("tabIndex"));
-  $$this.role$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("role"));
-  $$this.contentAttr$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("content"));
-  $$this.httpEquiv$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("httpEquiv"));
-  $$this.media$1 = ($m_Ljapgolly_scalajs_react_vdom_Scalatags$(), new $c_Ljapgolly_scalajs_react_vdom_Attr().init___T("media"))
-});
-var $s_Ljapgolly_scalajs_react_vdom_HtmlStyles$class__$$init$__Ljapgolly_scalajs_react_vdom_HtmlStyles__V = (function($$this) {
-  $$this.background$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("background", "background");
-  $$this.backgroundRepeat$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("backgroundRepeat", "backgroundRepeat");
-  $$this.backgroundPosition$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("backgroundPosition", "backgroundPosition");
-  $$this.backgroundColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("backgroundColor", "backgroundColor");
-  $$this.backgroundImage$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle().init___T__T("backgroundImage", "backgroundImage");
-  $$this.borderTopColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderTopColor", "borderTopColor");
-  $$this.borderStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle().init___T__T("borderStyle", "borderStyle");
-  $$this.borderTopStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle().init___T__T("borderTopStyle", "borderTopStyle");
-  $$this.borderRightStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle().init___T__T("borderRightStyle", "borderRightStyle");
-  $$this.borderRightWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth().init___T__T("borderRightWidth", "borderRightWidth");
-  $$this.borderTopRightRadius$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius().init___T__T("borderTopRightRadius", "borderTopRightRadius");
-  $$this.borderBottomLeftRadius$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius().init___T__T("borderBottomLeftRadius", "borderBottomLeftRadius");
-  $$this.borderRightColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderRightColor", "borderRightColor");
-  $$this.borderBottom$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderBottom", "borderBottom");
-  $$this.border$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("border", "border");
-  $$this.borderBottomWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth().init___T__T("borderBottomWidth", "borderBottomWidth");
-  $$this.borderLeftColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderLeftColor", "borderLeftColor");
-  $$this.borderBottomColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderBottomColor", "borderBottomColor");
-  $$this.borderLeft$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderLeft", "borderLeft");
-  $$this.borderLeftStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle().init___T__T("borderLeftStyle", "borderLeftStyle");
-  $$this.borderRight$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderRight", "borderRight");
-  $$this.borderBottomStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle().init___T__T("borderBottomStyle", "borderBottomStyle");
-  $$this.borderLeftWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth().init___T__T("borderLeftWidth", "borderLeftWidth");
-  $$this.borderTopWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth().init___T__T("borderTopWidth", "borderTopWidth");
-  $$this.borderTop$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderTop", "borderTop");
-  $$this.borderRadius$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderRadius", "borderRadius");
-  $$this.borderWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderWidth", "borderWidth");
-  $$this.borderBottomRightRadius$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius().init___T__T("borderBottomRightRadius", "borderBottomRightRadius");
-  $$this.borderTopLeftRadius$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius().init___T__T("borderTopLeftRadius", "borderTopLeftRadius");
-  $$this.borderColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("borderColor", "borderColor");
-  $$this.opacity$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("opacity", "opacity");
-  $$this.maxWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("maxWidth", "maxWidth");
-  $$this.overflow$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow().init___T__T("overflow", "overflow");
-  $$this.height$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("height", "height");
-  $$this.paddingRight$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("paddingRight", "paddingRight");
-  $$this.paddingTop$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("paddingTop", "paddingTop");
-  $$this.paddingLeft$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("paddingLeft", "paddingLeft");
-  $$this.padding$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("padding", "padding");
-  $$this.paddingBottom$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("paddingBottom", "paddingBottom");
-  $$this.right$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("right", "right");
-  $$this.lineHeight$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle().init___T__T("lineHeight", "lineHeight");
-  $$this.left$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("left", "left");
-  $$this.listStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("listStyle", "listStyle");
-  $$this.overflowY$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow().init___T__T("overflowY", "overflowY");
-  $$this.boxShadow$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("boxShadow", "boxShadow");
-  $$this.fontSizeAdjust$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("fontSizeAdjust", "fontSizeAdjust");
-  $$this.fontFamily$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("fontFamily", "fontFamily");
-  $$this.font$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("font", "font");
-  $$this.fontFeatureSettings$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("fontFeatureSettings", "fontFeatureSettings");
-  $$this.marginBottom$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("marginBottom", "marginBottom");
-  $$this.marginRight$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1().init___Ljapgolly_scalajs_react_vdom_HtmlStyles($$this);
-  $$this.marginTop$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2().init___Ljapgolly_scalajs_react_vdom_HtmlStyles($$this);
-  $$this.marginLeft$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3().init___Ljapgolly_scalajs_react_vdom_HtmlStyles($$this);
-  $$this.top$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("top", "top");
-  $$this.width$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("width", "width");
-  $$this.bottom$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("bottom", "bottom");
-  $$this.letterSpacing$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle().init___T__T("letterSpacing", "letterSpacing");
-  $$this.maxHeight$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle().init___T__T("maxHeight", "maxHeight");
-  $$this.minWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("minWidth", "minWidth");
-  $$this.minHeight$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("minHeight", "minHeight");
-  $$this.outline$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("outline", "outline");
-  $$this.outlineStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle().init___T__T("outlineStyle", "outlineStyle");
-  $$this.overflowX$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow().init___T__T("overflowX", "overflowX");
-  $$this.textAlignLast$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4().init___Ljapgolly_scalajs_react_vdom_HtmlStyles($$this);
-  $$this.textAlign$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5().init___Ljapgolly_scalajs_react_vdom_HtmlStyles($$this);
-  $$this.textIndent$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("textIndent", "textIndent");
-  $$this.textShadow$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle().init___T__T("textShadow", "textShadow");
-  $$this.wordSpacing$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle().init___T__T("wordSpacing", "wordSpacing");
-  $$this.zIndex$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("zIndex", "zIndex");
-  $$this.animationDirection$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationDirection", "animationDirection");
-  $$this.animationDuration$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationDuration", "animationDuration");
-  $$this.animationName$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationName", "animationName");
-  $$this.animationFillMode$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationFillMode", "animationFillMode");
-  $$this.animationIterationCount$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationIterationCount", "animationIterationCount");
-  $$this.animationDelay$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle().init___T__T("animationDelay", "animationDelay");
-  $$this.animationTimingFunction$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationTimingFunction", "animationTimingFunction");
-  $$this.animationPlayState$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animationPlayState", "animationPlayState");
-  $$this.animation$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("animation", "animation");
-  $$this.columnCount$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("columnCount", "columnCount");
-  $$this.columnGap$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle().init___T__T("columnGap", "columnGap");
-  $$this.columnRule$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("columnRule", "columnRule");
-  $$this.columnWidth$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle().init___T__T("columnWidth", "columnWidth");
-  $$this.columnRuleColor$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("columnRuleColor", "columnRuleColor");
-  $$this.contentStyle$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("content", "content");
-  $$this.counterIncrement$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("counterIncrement", "counterIncrement");
-  $$this.counterReset$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("counterReset", "counterReset");
-  $$this.orphans$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("orphans", "orphans");
-  $$this.widows$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("widows", "widows");
-  $$this.pageBreakAfter$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak().init___T__T("pageBreakAfter", "pageBreakAfter");
-  $$this.pageBreakInside$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak().init___T__T("pageBreakInside", "pageBreakInside");
-  $$this.pageBreakBefore$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak().init___T__T("pageBreakBefore", "pageBreakBefore");
-  $$this.perspective$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle().init___T__T("perspective", "perspective");
-  $$this.perspectiveOrigin$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("perspectiveOrigin", "perspectiveOrigin");
-  $$this.transitionDelay$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle().init___T__T("transitionDelay", "transitionDelay");
-  $$this.transition$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("transition", "transition");
-  $$this.transitionTimingFunction$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("transitionTimingFunction", "transitionTimingFunction");
-  $$this.transitionDuration$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle().init___T__T("transitionDuration", "transitionDuration");
-  $$this.transitionProperty$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("transitionProperty", "transitionProperty");
-  $$this.transform$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("transform", "transform");
-  $$this.flex$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("flex", "flex");
-  $$this.flexBasis$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("flexBasis", "flexBasis");
-  $$this.flexGrow$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("flexGrow", "flexGrow");
-  $$this.flexShrink$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("flexShrink", "flexShrink");
-  $$this.transformOrigin$1 = new $c_Ljapgolly_scalajs_react_vdom_Style().init___T__T("transformOrigin", "transformOrigin")
 });
 var $s_Ljapgolly_scalajs_react_vdom_HtmlTags$class__$$init$__Ljapgolly_scalajs_react_vdom_HtmlTags__V = (function($$this) {
   $m_Ljapgolly_scalajs_react_vdom_Scalatags$();
@@ -2511,6 +2206,55 @@ var $m_Ljapgolly_scalajs_react_vdom_Scalatags$NamespaceHtml$ = (function() {
   };
   return $n_Ljapgolly_scalajs_react_vdom_Scalatags$NamespaceHtml$
 });
+/** @constructor */
+var $c_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
+  $c_O.call(this)
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype = new $h_O();
+$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.constructor = $c_LreactAndScala_webapp_ReactAndScalaJS$;
+/** @constructor */
+var $h_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
+  /*<skip>*/
+});
+$h_LreactAndScala_webapp_ReactAndScalaJS$.prototype = $c_LreactAndScala_webapp_ReactAndScalaJS$.prototype;
+$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.main__Lorg_scalajs_dom_raw_Element__V = (function(htmlNode) {
+  var this$2 = $m_s_Console$();
+  var this$3 = this$2.outVar$2;
+  $as_Ljava_io_PrintStream(this$3.tl$1.get__O()).println__O__V("Hello!");
+  var c = new $c_Ljapgolly_scalajs_react_ReactComponentB$P().init___T("HelloMessage").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1().init___());
+  var this$7 = new $c_Ljapgolly_scalajs_react_ReactComponentB$AnchorN().init___Ljapgolly_scalajs_react_ReactComponentB(c);
+  var ev = $m_s_Predef$().scala$Predef$$singleton$und$eq$colon$eq$f;
+  var HelloMessage = $as_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(this$7.propsConst__F0__Ljapgolly_scalajs_react_ReactComponentB$Builder(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(ev$1) {
+    return (function() {
+      return (void 0)
+    })
+  })(ev))).build__O());
+  $g["React"]["render"](HelloMessage.apply__sc_Seq__Ljapgolly_scalajs_react_ReactComponentU($m_sci_Nil$()), htmlNode)
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.$$js$exported$meth$main__Lorg_scalajs_dom_raw_Element__O = (function(htmlNode) {
+  this.main__Lorg_scalajs_dom_raw_Element__V(htmlNode)
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype["main"] = (function(arg$1) {
+  var prep0 = arg$1;
+  return this.$$js$exported$meth$main__Lorg_scalajs_dom_raw_Element__O(prep0)
+});
+var $d_LreactAndScala_webapp_ReactAndScalaJS$ = new $TypeData().initClass({
+  LreactAndScala_webapp_ReactAndScalaJS$: 0
+}, false, "reactAndScala.webapp.ReactAndScalaJS$", {
+  LreactAndScala_webapp_ReactAndScalaJS$: 1,
+  O: 1
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.$classData = $d_LreactAndScala_webapp_ReactAndScalaJS$;
+var $n_LreactAndScala_webapp_ReactAndScalaJS$ = (void 0);
+var $m_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
+  if ((!$n_LreactAndScala_webapp_ReactAndScalaJS$)) {
+    $n_LreactAndScala_webapp_ReactAndScalaJS$ = new $c_LreactAndScala_webapp_ReactAndScalaJS$().init___()
+  };
+  return $n_LreactAndScala_webapp_ReactAndScalaJS$
+});
+$e["reactAndScala"] = ($e["reactAndScala"] || {});
+$e["reactAndScala"]["webapp"] = ($e["reactAndScala"]["webapp"] || {});
+$e["reactAndScala"]["webapp"]["ReactAndScalaJS"] = $m_LreactAndScala_webapp_ReactAndScalaJS$;
 /** @constructor */
 var $c_jl_Class = (function() {
   $c_O.call(this);
@@ -4488,95 +4232,6 @@ var $d_Ljapgolly_scalajs_react_vdom_Scalatags$NamespaceHtml$$anon$1 = new $TypeD
   Ljapgolly_scalajs_react_vdom_Scalatags$Namespace: 1
 });
 $c_Ljapgolly_scalajs_react_vdom_Scalatags$NamespaceHtml$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Scalatags$NamespaceHtml$$anon$1;
-/** @constructor */
-var $c_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
-  $c_O.call(this)
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype = new $h_O();
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.constructor = $c_LreactAndScala_webapp_ReactAndScalaJS$;
-/** @constructor */
-var $h_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
-  /*<skip>*/
-});
-$h_LreactAndScala_webapp_ReactAndScalaJS$.prototype = $c_LreactAndScala_webapp_ReactAndScalaJS$.prototype;
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.init___ = (function() {
-  $n_LreactAndScala_webapp_ReactAndScalaJS$ = this;
-  return this
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.main__V = (function() {
-  var this$2 = $m_s_Console$();
-  var this$3 = this$2.outVar$2;
-  $as_Ljava_io_PrintStream(this$3.tl$1.get__O()).println__O__V("Hello!");
-  this.appendPar__Lorg_scalajs_dom_raw_Node__T__V($g["document"]["body"], "Hello World");
-  (0, $g["jQuery"])((function() {
-    $m_LreactAndScala_webapp_ReactAndScalaJS$().setupUI__V()
-  }));
-  (0, $g["jQuery"])("body")["append"]("<p>Cool message</p>");
-  var TestComponent = $as_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps($m_Ljapgolly_scalajs_react_ReactComponentB$().defaultDomTypeAndProps__Ljapgolly_scalajs_react_ReactComponentB__Ljapgolly_scalajs_react_ReactComponentB$Builder(new $c_Ljapgolly_scalajs_react_ReactComponentB$P().init___T("TestComponent").render__F1__Ljapgolly_scalajs_react_ReactComponentB(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(name$2) {
-    var name = $as_T(name$2);
-    $m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$();
-    var t = $m_LreactAndScala_webapp_ReactAndScalaJS$().nameList__T__Ljapgolly_scalajs_react_vdom_ReactTag(name);
-    return t.render__Ljapgolly_scalajs_react_ReactElement()
-  })))).build__O());
-  var jsx$1 = $g["React"];
-  var array = [];
-  jsx$1["render"](TestComponent.jsCtor$2["apply"](null, [TestComponent.mkProps__O__Ljapgolly_scalajs_react_package$WrapObj("Simon")]["concat"](array)), $g["document"]["body"])
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.setupUI__V = (function() {
-  (0, $g["jQuery"])("body")["append"]("<p>Jquery Hello World</p>");
-  (0, $g["jQuery"])("<button type=\"button\">Click me!</button>")["click"]((function() {
-    $m_LreactAndScala_webapp_ReactAndScalaJS$().addClickedMessage__V()
-  }))["appendTo"]((0, $g["jQuery"])("body"))
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.addClickedMessage__V = (function() {
-  this.appendPar__Lorg_scalajs_dom_raw_Node__T__V($g["document"]["body"], "You clicked the button!")
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.$$js$exported$meth$addClickedMessage__O = (function() {
-  this.addClickedMessage__V()
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.$$js$exported$meth$main__O = (function() {
-  this.main__V()
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.appendPar__Lorg_scalajs_dom_raw_Node__T__V = (function(targetNode, text) {
-  var parNode = $g["document"]["createElement"]("p");
-  var textNode = $g["document"]["createTextNode"](text);
-  parNode["appendChild"](textNode);
-  targetNode["appendChild"](parNode)
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.nameList__T__Ljapgolly_scalajs_react_vdom_ReactTag = (function(name) {
-  var jsx$2 = ($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_package$Tags$()).div$1;
-  var this$4 = ($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_package$Attrs$()).name$1;
-  $m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$();
-  var ev = $m_Ljapgolly_scalajs_react_vdom_Scalatags$().stringAttrX$1;
-  var jsx$1 = new $c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair().init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue(this$4, "hello in react", ev);
-  $m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$();
-  var v = ("React say hello to " + name);
-  return jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, new $c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode(($m_Ljapgolly_scalajs_react_package$(), v))]))
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype["main"] = (function() {
-  return this.$$js$exported$meth$main__O()
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype["addClickedMessage"] = (function() {
-  return this.$$js$exported$meth$addClickedMessage__O()
-});
-var $d_LreactAndScala_webapp_ReactAndScalaJS$ = new $TypeData().initClass({
-  LreactAndScala_webapp_ReactAndScalaJS$: 0
-}, false, "reactAndScala.webapp.ReactAndScalaJS$", {
-  LreactAndScala_webapp_ReactAndScalaJS$: 1,
-  O: 1,
-  sjs_js_JSApp: 1
-});
-$c_LreactAndScala_webapp_ReactAndScalaJS$.prototype.$classData = $d_LreactAndScala_webapp_ReactAndScalaJS$;
-var $n_LreactAndScala_webapp_ReactAndScalaJS$ = (void 0);
-var $m_LreactAndScala_webapp_ReactAndScalaJS$ = (function() {
-  if ((!$n_LreactAndScala_webapp_ReactAndScalaJS$)) {
-    $n_LreactAndScala_webapp_ReactAndScalaJS$ = new $c_LreactAndScala_webapp_ReactAndScalaJS$().init___()
-  };
-  return $n_LreactAndScala_webapp_ReactAndScalaJS$
-});
-$e["reactAndScala"] = ($e["reactAndScala"] || {});
-$e["reactAndScala"]["webapp"] = ($e["reactAndScala"]["webapp"] || {});
-$e["reactAndScala"]["webapp"]["ReactAndScalaJS"] = $m_LreactAndScala_webapp_ReactAndScalaJS$;
 var $d_jl_Boolean = new $TypeData().initClass({
   jl_Boolean: 0
 }, false, "java.lang.Boolean", {
@@ -5035,6 +4690,9 @@ var $h_sr_AbstractFunction1 = (function() {
   /*<skip>*/
 });
 $h_sr_AbstractFunction1.prototype = $c_sr_AbstractFunction1.prototype;
+$c_sr_AbstractFunction1.prototype.init___ = (function() {
+  return this
+});
 $c_sr_AbstractFunction1.prototype.toString__T = (function() {
   return "<function1>"
 });
@@ -6814,47 +6472,71 @@ var $d_sr_Nothing$ = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 /** @constructor */
-var $c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = (function() {
+var $c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function() {
   $c_Ljapgolly_scalajs_react_package$ReactComponentC$BaseCtor.call(this);
   this.jsCtor$2 = null;
   this.key$2 = null;
-  this.ref$2 = null
+  this.ref$2 = null;
+  this.props$2 = null
 });
-$c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps.prototype = new $h_Ljapgolly_scalajs_react_package$ReactComponentC$BaseCtor();
-$c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps.prototype.constructor = $c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps;
+$c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype = new $h_Ljapgolly_scalajs_react_package$ReactComponentC$BaseCtor();
+$c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype.constructor = $c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps;
 /** @constructor */
-var $h_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = (function() {
+var $h_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function() {
   /*<skip>*/
 });
-$h_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps.prototype = $c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps.prototype;
-$c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps.prototype.init___Ljapgolly_scalajs_react_ReactComponentCU__sjs_js_UndefOr__sjs_js_UndefOr = (function(jsCtor, key, ref) {
+$h_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype = $c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype;
+$c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype.apply__sc_Seq__Ljapgolly_scalajs_react_ReactComponentU = (function(children) {
+  var jsx$4 = this.jsCtor$2;
+  var jsx$3 = this.mkProps__O__Ljapgolly_scalajs_react_package$WrapObj(this.props$2.apply__O());
+  var this$1 = $m_sjsr_package$();
+  if ($is_sjs_js_ArrayOps(children)) {
+    var x2 = $as_sjs_js_ArrayOps(children);
+    var jsx$2 = x2.result__sjs_js_Array()
+  } else if ($is_sjs_js_WrappedArray(children)) {
+    var x3 = $as_sjs_js_WrappedArray(children);
+    var jsx$2 = x3.array$6
+  } else {
+    var result = [];
+    children.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2, result$1) {
+      return (function(x$2) {
+        return $uI(result$1["push"](x$2))
+      })
+    })(this$1, result)));
+    var jsx$2 = result
+  };
+  var jsx$1 = [jsx$3]["concat"](jsx$2);
+  return jsx$4["apply"](null, jsx$1)
+});
+$c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype.init___Ljapgolly_scalajs_react_ReactComponentCU__sjs_js_UndefOr__sjs_js_UndefOr__F0 = (function(jsCtor, key, ref, props) {
   this.jsCtor$2 = jsCtor;
   this.key$2 = key;
   this.ref$2 = ref;
+  this.props$2 = props;
   return this
 });
-var $is_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps)))
+var $is_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps)))
 });
-var $as_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = (function(obj) {
-  return (($is_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.package$ReactComponentC$ReqProps"))
+var $as_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function(obj) {
+  return (($is_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.package$ReactComponentC$ConstProps"))
 });
-var $isArrayOf_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps)))
+var $isArrayOf_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps)))
 });
-var $asArrayOf_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = (function(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.package$ReactComponentC$ReqProps;", depth))
+var $asArrayOf_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = (function(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.package$ReactComponentC$ConstProps;", depth))
 });
-var $d_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps: 0
-}, false, "japgolly.scalajs.react.package$ReactComponentC$ReqProps", {
-  Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps: 1,
+var $d_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps: 0
+}, false, "japgolly.scalajs.react.package$ReactComponentC$ConstProps", {
+  Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps: 1,
   Ljapgolly_scalajs_react_package$ReactComponentC$BaseCtor: 1,
   O: 1,
   Ljapgolly_scalajs_react_package$ReactComponentC: 1,
   Ljapgolly_scalajs_react_package$ReactComponentTypeAux: 1
 });
-$c_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps.prototype.$classData = $d_Ljapgolly_scalajs_react_package$ReactComponentC$ReqProps;
+$c_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps.prototype.$classData = $d_Ljapgolly_scalajs_react_package$ReactComponentC$ConstProps;
 /** @constructor */
 var $c_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$ = (function() {
   $c_Ljapgolly_scalajs_react_vdom_package$Base.call(this)
@@ -7398,165 +7080,6 @@ var $d_Ljapgolly_scalajs_react_ReactComponentB$LifeCycle = new $TypeData().initC
 });
 $c_Ljapgolly_scalajs_react_ReactComponentB$LifeCycle.prototype.$classData = $d_Ljapgolly_scalajs_react_ReactComponentB$LifeCycle;
 /** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_Attr = (function() {
-  $c_O.call(this);
-  this.name$1 = null
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_Attr = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_Attr.prototype = $c_Ljapgolly_scalajs_react_vdom_Attr.prototype;
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.productPrefix__T = (function() {
-  return "Attr"
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.productArity__I = (function() {
-  return 1
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.equals__O__Z = (function(x$1) {
-  if ((this === x$1)) {
-    return true
-  } else if ($is_Ljapgolly_scalajs_react_vdom_Attr(x$1)) {
-    var Attr$1 = $as_Ljapgolly_scalajs_react_vdom_Attr(x$1);
-    return (this.name$1 === Attr$1.name$1)
-  } else {
-    return false
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.productElement__I__O = (function(x$1) {
-  switch (x$1) {
-    case 0: {
-      return this.name$1;
-      break
-    }
-    default: {
-      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-    }
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.toString__T = (function() {
-  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T = (function(name) {
-  this.name$1 = name;
-  $m_Ljapgolly_scalajs_react_vdom_Escaping$().assertValidAttrName__T__V(name);
-  return this
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.hashCode__I = (function() {
-  var this$2 = $m_s_util_hashing_MurmurHash3$();
-  return this$2.productHash__s_Product__I__I(this, (-889275714))
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $is_Ljapgolly_scalajs_react_vdom_Attr = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Attr)))
-});
-var $as_Ljapgolly_scalajs_react_vdom_Attr = (function(obj) {
-  return (($is_Ljapgolly_scalajs_react_vdom_Attr(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.vdom.Attr"))
-});
-var $isArrayOf_Ljapgolly_scalajs_react_vdom_Attr = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_vdom_Attr)))
-});
-var $asArrayOf_Ljapgolly_scalajs_react_vdom_Attr = (function(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_vdom_Attr(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.vdom.Attr;", depth))
-});
-var $d_Ljapgolly_scalajs_react_vdom_Attr = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_Attr: 0
-}, false, "japgolly.scalajs.react.vdom.Attr", {
-  Ljapgolly_scalajs_react_vdom_Attr: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Attr;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_Style = (function() {
-  $c_O.call(this);
-  this.jsName$1 = null;
-  this.cssName$1 = null
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Style;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_Style = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_Style.prototype = $c_Ljapgolly_scalajs_react_vdom_Style.prototype;
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T__T = (function(jsName, cssName) {
-  this.jsName$1 = jsName;
-  this.cssName$1 = cssName;
-  return this
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.productPrefix__T = (function() {
-  return "Style"
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.productArity__I = (function() {
-  return 2
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.equals__O__Z = (function(x$1) {
-  if ((this === x$1)) {
-    return true
-  } else if ($is_Ljapgolly_scalajs_react_vdom_Style(x$1)) {
-    var Style$1 = $as_Ljapgolly_scalajs_react_vdom_Style(x$1);
-    return ((this.jsName$1 === Style$1.jsName$1) && (this.cssName$1 === Style$1.cssName$1))
-  } else {
-    return false
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.productElement__I__O = (function(x$1) {
-  switch (x$1) {
-    case 0: {
-      return this.jsName$1;
-      break
-    }
-    case 1: {
-      return this.cssName$1;
-      break
-    }
-    default: {
-      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-    }
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.toString__T = (function() {
-  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.hashCode__I = (function() {
-  var this$2 = $m_s_util_hashing_MurmurHash3$();
-  return this$2.productHash__s_Product__I__I(this, (-889275714))
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $is_Ljapgolly_scalajs_react_vdom_Style = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Style)))
-});
-var $as_Ljapgolly_scalajs_react_vdom_Style = (function(obj) {
-  return (($is_Ljapgolly_scalajs_react_vdom_Style(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.vdom.Style"))
-});
-var $isArrayOf_Ljapgolly_scalajs_react_vdom_Style = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_vdom_Style)))
-});
-var $asArrayOf_Ljapgolly_scalajs_react_vdom_Style = (function(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_vdom_Style(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.vdom.Style;", depth))
-});
-var $d_Ljapgolly_scalajs_react_vdom_Style = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_Style: 0
-}, false, "japgolly.scalajs.react.vdom.Style", {
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_Style.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Style;
-/** @constructor */
 var $c_Ljapgolly_scalajs_react_vdom_package$Tags$ = (function() {
   $c_O.call(this);
   this.big$1 = null;
@@ -7704,6 +7227,36 @@ var $m_Ljapgolly_scalajs_react_vdom_package$Tags$ = (function() {
   };
   return $n_Ljapgolly_scalajs_react_vdom_package$Tags$
 });
+/** @constructor */
+var $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1 = (function() {
+  $c_sr_AbstractFunction1.call(this)
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype = new $h_sr_AbstractFunction1();
+$c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype.constructor = $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1;
+/** @constructor */
+var $h_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1 = (function() {
+  /*<skip>*/
+});
+$h_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype = $c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype;
+$c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype.apply__O__O = (function(v1) {
+  return this.apply__sr_BoxedUnit__Ljapgolly_scalajs_react_ReactElement($asUnit(v1))
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype.apply__sr_BoxedUnit__Ljapgolly_scalajs_react_ReactElement = (function(x$1) {
+  $m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$();
+  var t = ($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_package$Tags$()).div$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_ReactTag(new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_package$prefix$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag().init___Ljapgolly_scalajs_react_ReactNode(($m_Ljapgolly_scalajs_react_package$(), "Hello from scala")))]));
+  return t.render__Ljapgolly_scalajs_react_ReactElement()
+});
+var $d_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1 = new $TypeData().initClass({
+  LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1: 0
+}, false, "reactAndScala.webapp.ReactAndScalaJS$$anonfun$1", {
+  LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1: 1,
+  sr_AbstractFunction1: 1,
+  O: 1,
+  F1: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1.prototype.$classData = $d_LreactAndScala_webapp_ReactAndScalaJS$$anonfun$1;
 /** @constructor */
 var $c_jl_ArithmeticException = (function() {
   $c_jl_RuntimeException.call(this)
@@ -8344,662 +7897,6 @@ var $d_sr_ScalaRunTime$$anon$1 = new $TypeData().initClass({
 });
 $c_sr_ScalaRunTime$$anon$1.prototype.$classData = $d_sr_ScalaRunTime$$anon$1;
 /** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$AutoStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$AutoStyle;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$BorderRadius", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderRadius;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$BorderWidth", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderWidth;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$MultiImageStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiImageStyle;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$MultiTimeStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MultiTimeStyle;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$NoneOpenStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NoneOpenStyle;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$NormalOpenStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$NormalOpenStyle;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$OutlineStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$Overflow", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$Overflow;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$PageBreak", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$PageBreak;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = (function() {
-  $c_O.call(this);
-  this.a$1 = null;
-  this.t$1 = null;
-  this.av$1 = null
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype = $c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype;
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.productPrefix__T = (function() {
-  return "AttrPair"
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.productArity__I = (function() {
-  return 3
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.init___Ljapgolly_scalajs_react_vdom_Attr__O__Ljapgolly_scalajs_react_vdom_Scalatags$AttrValue = (function(a, t, av) {
-  this.a$1 = a;
-  this.t$1 = t;
-  this.av$1 = av;
-  return this
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.equals__O__Z = (function(x$1) {
-  if ((this === x$1)) {
-    return true
-  } else if ($is_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair(x$1)) {
-    var AttrPair$1 = $as_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair(x$1);
-    var x = this.a$1;
-    var x$2 = AttrPair$1.a$1;
-    if ((((x === null) ? (x$2 === null) : x.equals__O__Z(x$2)) && $m_sr_BoxesRunTime$().equals__O__O__Z(this.t$1, AttrPair$1.t$1))) {
-      var x$3 = this.av$1;
-      var x$4 = AttrPair$1.av$1;
-      return (x$3 === x$4)
-    } else {
-      return false
-    }
-  } else {
-    return false
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.productElement__I__O = (function(x$1) {
-  switch (x$1) {
-    case 0: {
-      return this.a$1;
-      break
-    }
-    case 1: {
-      return this.t$1;
-      break
-    }
-    case 2: {
-      return this.av$1;
-      break
-    }
-    default: {
-      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-    }
-  }
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.toString__T = (function() {
-  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.hashCode__I = (function() {
-  var this$2 = $m_s_util_hashing_MurmurHash3$();
-  return this$2.productHash__s_Product__I__I(this, (-889275714))
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.applyTo__Ljapgolly_scalajs_react_vdom_Builder__V = (function(b) {
-  var this$1 = this.av$1;
-  var v = this.t$1;
-  var arg1 = this$1.f$1.apply__O__O(v);
-  b.addAttr__T__sjs_js_Any__V(this.a$1.name$1, arg1)
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $is_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = (function(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair)))
-});
-var $as_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = (function(obj) {
-  return (($is_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.vdom.Scalatags$AttrPair"))
-});
-var $isArrayOf_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = (function(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair)))
-});
-var $asArrayOf_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = (function(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.vdom.Scalatags$AttrPair;", depth))
-});
-var $d_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair: 0
-}, false, "japgolly.scalajs.react.vdom.Scalatags$AttrPair", {
-  Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_vdom_TagMod: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Scalatags$AttrPair;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_package$Attrs$ = (function() {
-  $c_O.call(this);
-  this.background$1 = null;
-  this.backgroundRepeat$1 = null;
-  this.backgroundPosition$1 = null;
-  this.backgroundColor$1 = null;
-  this.backgroundImage$1 = null;
-  this.borderTopColor$1 = null;
-  this.borderStyle$1 = null;
-  this.borderTopStyle$1 = null;
-  this.borderRightStyle$1 = null;
-  this.borderRightWidth$1 = null;
-  this.borderTopRightRadius$1 = null;
-  this.borderBottomLeftRadius$1 = null;
-  this.borderRightColor$1 = null;
-  this.borderBottom$1 = null;
-  this.border$1 = null;
-  this.borderBottomWidth$1 = null;
-  this.borderLeftColor$1 = null;
-  this.borderBottomColor$1 = null;
-  this.borderLeft$1 = null;
-  this.borderLeftStyle$1 = null;
-  this.borderRight$1 = null;
-  this.borderBottomStyle$1 = null;
-  this.borderLeftWidth$1 = null;
-  this.borderTopWidth$1 = null;
-  this.borderTop$1 = null;
-  this.borderRadius$1 = null;
-  this.borderWidth$1 = null;
-  this.borderBottomRightRadius$1 = null;
-  this.borderTopLeftRadius$1 = null;
-  this.borderColor$1 = null;
-  this.opacity$1 = null;
-  this.maxWidth$1 = null;
-  this.overflow$1 = null;
-  this.height$1 = null;
-  this.paddingRight$1 = null;
-  this.paddingTop$1 = null;
-  this.paddingLeft$1 = null;
-  this.padding$1 = null;
-  this.paddingBottom$1 = null;
-  this.right$1 = null;
-  this.lineHeight$1 = null;
-  this.left$1 = null;
-  this.listStyle$1 = null;
-  this.overflowY$1 = null;
-  this.boxShadow$1 = null;
-  this.fontSizeAdjust$1 = null;
-  this.fontFamily$1 = null;
-  this.font$1 = null;
-  this.fontFeatureSettings$1 = null;
-  this.marginBottom$1 = null;
-  this.marginRight$1 = null;
-  this.marginTop$1 = null;
-  this.marginLeft$1 = null;
-  this.top$1 = null;
-  this.width$1 = null;
-  this.bottom$1 = null;
-  this.letterSpacing$1 = null;
-  this.maxHeight$1 = null;
-  this.minWidth$1 = null;
-  this.minHeight$1 = null;
-  this.outline$1 = null;
-  this.outlineStyle$1 = null;
-  this.overflowX$1 = null;
-  this.textAlignLast$1 = null;
-  this.textAlign$1 = null;
-  this.textIndent$1 = null;
-  this.textShadow$1 = null;
-  this.wordSpacing$1 = null;
-  this.zIndex$1 = null;
-  this.animationDirection$1 = null;
-  this.animationDuration$1 = null;
-  this.animationName$1 = null;
-  this.animationFillMode$1 = null;
-  this.animationIterationCount$1 = null;
-  this.animationDelay$1 = null;
-  this.animationTimingFunction$1 = null;
-  this.animationPlayState$1 = null;
-  this.animation$1 = null;
-  this.columnCount$1 = null;
-  this.columnGap$1 = null;
-  this.columnRule$1 = null;
-  this.columnWidth$1 = null;
-  this.columnRuleColor$1 = null;
-  this.contentStyle$1 = null;
-  this.counterIncrement$1 = null;
-  this.counterReset$1 = null;
-  this.orphans$1 = null;
-  this.widows$1 = null;
-  this.pageBreakAfter$1 = null;
-  this.pageBreakInside$1 = null;
-  this.pageBreakBefore$1 = null;
-  this.perspective$1 = null;
-  this.perspectiveOrigin$1 = null;
-  this.transitionDelay$1 = null;
-  this.transition$1 = null;
-  this.transitionTimingFunction$1 = null;
-  this.transitionDuration$1 = null;
-  this.transitionProperty$1 = null;
-  this.transform$1 = null;
-  this.flex$1 = null;
-  this.flexBasis$1 = null;
-  this.flexGrow$1 = null;
-  this.flexShrink$1 = null;
-  this.transformOrigin$1 = null;
-  this.className$1 = null;
-  this.cls$1 = null;
-  this.class$1 = null;
-  this.colSpan$1 = null;
-  this.rowSpan$1 = null;
-  this.htmlFor$1 = null;
-  this.ref$1 = null;
-  this.key$1 = null;
-  this.draggable$1 = null;
-  this.onDragStart$1 = null;
-  this.onDragEnd$1 = null;
-  this.onDragEnter$1 = null;
-  this.onDragOver$1 = null;
-  this.onDragLeave$1 = null;
-  this.onDrop$1 = null;
-  this.onBeforeInput$1 = null;
-  this.acceptCharset$1 = null;
-  this.accessKey$1 = null;
-  this.allowFullScreen$1 = null;
-  this.allowTransparency$1 = null;
-  this.async$1 = null;
-  this.autoCapitalize$1 = null;
-  this.autoCorrect$1 = null;
-  this.autoPlay$1 = null;
-  this.cellPadding$1 = null;
-  this.cellSpacing$1 = null;
-  this.classID$1 = null;
-  this.contentEditable$1 = null;
-  this.contextMenu$1 = null;
-  this.controls$1 = null;
-  this.coords$1 = null;
-  this.crossOrigin$1 = null;
-  this.dateTime$1 = null;
-  this.defer$1 = null;
-  this.defaultValue$1 = null;
-  this.dir$1 = null;
-  this.download$1 = null;
-  this.encType$1 = null;
-  this.formAction$1 = null;
-  this.formEncType$1 = null;
-  this.formMethod$1 = null;
-  this.formNoValidate$1 = null;
-  this.formTarget$1 = null;
-  this.frameBorder$1 = null;
-  this.headers$1 = null;
-  this.hrefLang$1 = null;
-  this.icon$1 = null;
-  this.itemProp$1 = null;
-  this.itemScope$1 = null;
-  this.itemType$1 = null;
-  this.list$1 = null;
-  this.loop$1 = null;
-  this.manifest$1 = null;
-  this.marginHeight$1 = null;
-  this.marginWidth$1 = null;
-  this.maxLength$1 = null;
-  this.mediaGroup$1 = null;
-  this.multiple$1 = null;
-  this.muted$1 = null;
-  this.noValidate$1 = null;
-  this.open$1 = null;
-  this.poster$1 = null;
-  this.preload$1 = null;
-  this.radioGroup$1 = null;
-  this.sandbox$1 = null;
-  this.scope$1 = null;
-  this.scrolling$1 = null;
-  this.seamless$1 = null;
-  this.selected$1 = null;
-  this.shape$1 = null;
-  this.sizes$1 = null;
-  this.srcDoc$1 = null;
-  this.srcSet$1 = null;
-  this.step$1 = null;
-  this.useMap$1 = null;
-  this.wmode$1 = null;
-  this.dangerouslySetInnerHtmlAttr$1 = null;
-  this.href$1 = null;
-  this.action$1 = null;
-  this.method$1 = null;
-  this.id$1 = null;
-  this.target$1 = null;
-  this.name$1 = null;
-  this.alt$1 = null;
-  this.onBlur$1 = null;
-  this.onChange$1 = null;
-  this.onClick$1 = null;
-  this.onDblClick$1 = null;
-  this.onFocus$1 = null;
-  this.onKeyDown$1 = null;
-  this.onKeyUp$1 = null;
-  this.onKeyPress$1 = null;
-  this.onLoad$1 = null;
-  this.onMouseDown$1 = null;
-  this.onMouseMove$1 = null;
-  this.onMouseOut$1 = null;
-  this.onMouseOver$1 = null;
-  this.onMouseUp$1 = null;
-  this.onSelect$1 = null;
-  this.onScroll$1 = null;
-  this.onSubmit$1 = null;
-  this.onReset$1 = null;
-  this.rel$1 = null;
-  this.src$1 = null;
-  this.style$1 = null;
-  this.title$1 = null;
-  this.type$1 = null;
-  this.tpe$1 = null;
-  this.xmlns$1 = null;
-  this.lang$1 = null;
-  this.placeholder$1 = null;
-  this.spellCheck$1 = null;
-  this.value$1 = null;
-  this.accept$1 = null;
-  this.autoComplete$1 = null;
-  this.autoFocus$1 = null;
-  this.checked$1 = null;
-  this.charset$1 = null;
-  this.disabled$1 = null;
-  this.for$1 = null;
-  this.readOnly$1 = null;
-  this.required$1 = null;
-  this.rows$1 = null;
-  this.cols$1 = null;
-  this.size$1 = null;
-  this.tabIndex$1 = null;
-  this.role$1 = null;
-  this.contentAttr$1 = null;
-  this.httpEquiv$1 = null;
-  this.media$1 = null;
-  this.backgroundAttachment$module$1 = null;
-  this.backgroundOrigin$module$1 = null;
-  this.backgroundClip$module$1 = null;
-  this.backgroundSize$module$1 = null;
-  this.borderCollapse$module$1 = null;
-  this.borderSpacing$module$1 = null;
-  this.boxSizing$module$1 = null;
-  this.color$module$1 = null;
-  this.clip$module$1 = null;
-  this.cursor$module$1 = null;
-  this.float$module$1 = null;
-  this.direction$module$1 = null;
-  this.display$module$1 = null;
-  this.pointerEvents$module$1 = null;
-  this.listStyleImage$module$1 = null;
-  this.listStylePosition$module$1 = null;
-  this.wordWrap$module$1 = null;
-  this.verticalAlign$module$1 = null;
-  this.mask$module$1 = null;
-  this.emptyCells$module$1 = null;
-  this.listStyleType$module$1 = null;
-  this.captionSide$module$1 = null;
-  this.position$module$1 = null;
-  this.quotes$module$1 = null;
-  this.tableLayout$module$1 = null;
-  this.fontSize$module$1 = null;
-  this.fontWeight$module$1 = null;
-  this.fontStyle$module$1 = null;
-  this.clear$module$1 = null;
-  this.margin$module$1 = null;
-  this.outlineWidth$module$1 = null;
-  this.outlineColor$module$1 = null;
-  this.textDecoration$module$1 = null;
-  this.textOverflow$module$1 = null;
-  this.textUnderlinePosition$module$1 = null;
-  this.textTransform$module$1 = null;
-  this.visibility$module$1 = null;
-  this.whiteSpace$module$1 = null;
-  this.backfaceVisibility$module$1 = null;
-  this.columns$module$1 = null;
-  this.columnFill$module$1 = null;
-  this.columnSpan$module$1 = null;
-  this.columnRuleWidth$module$1 = null;
-  this.columnRuleStyle$module$1 = null;
-  this.flexWrap$module$1 = null;
-  this.alignItems$module$1 = null;
-  this.justifyContent$module$1 = null;
-  this.flexDirection$module$1 = null;
-  this.transformStyle$module$1 = null;
-  this.unicodeBidi$module$1 = null;
-  this.wordBreak$module$1 = null;
-  this.aria$module$1 = null
-});
-$c_Ljapgolly_scalajs_react_vdom_package$Attrs$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_vdom_package$Attrs$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_package$Attrs$;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_package$Attrs$ = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_package$Attrs$.prototype = $c_Ljapgolly_scalajs_react_vdom_package$Attrs$.prototype;
-$c_Ljapgolly_scalajs_react_vdom_package$Attrs$.prototype.init___ = (function() {
-  $n_Ljapgolly_scalajs_react_vdom_package$Attrs$ = this;
-  $s_Ljapgolly_scalajs_react_vdom_HtmlAttrs$class__$$init$__Ljapgolly_scalajs_react_vdom_HtmlAttrs__V(this);
-  $s_Ljapgolly_scalajs_react_vdom_Extra$Attrs$class__$$init$__Ljapgolly_scalajs_react_vdom_Extra$Attrs__V(this);
-  $s_Ljapgolly_scalajs_react_vdom_HtmlStyles$class__$$init$__Ljapgolly_scalajs_react_vdom_HtmlStyles__V(this);
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_package$Attrs$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_package$Attrs$: 0
-}, false, "japgolly.scalajs.react.vdom.package$Attrs$", {
-  Ljapgolly_scalajs_react_vdom_package$Attrs$: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_vdom_package$JustAttrs: 1,
-  Ljapgolly_scalajs_react_vdom_package$Attrs: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlAttrs: 1,
-  Ljapgolly_scalajs_react_vdom_Extra$Attrs: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStyles: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_package$Attrs$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_package$Attrs$;
-var $n_Ljapgolly_scalajs_react_vdom_package$Attrs$ = (void 0);
-var $m_Ljapgolly_scalajs_react_vdom_package$Attrs$ = (function() {
-  if ((!$n_Ljapgolly_scalajs_react_vdom_package$Attrs$)) {
-    $n_Ljapgolly_scalajs_react_vdom_package$Attrs$ = new $c_Ljapgolly_scalajs_react_vdom_package$Attrs$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_vdom_package$Attrs$
-});
-/** @constructor */
 var $c_Ljava_io_PrintStream = (function() {
   $c_Ljava_io_FilterOutputStream.call(this);
   this.java$io$PrintStream$$autoFlush$f = false;
@@ -9485,182 +8382,6 @@ var $d_sjsr_UndefinedBehaviorError = new $TypeData().initClass({
 });
 $c_sjsr_UndefinedBehaviorError.prototype.$classData = $d_sjsr_UndefinedBehaviorError;
 /** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1 = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1 = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1.prototype;
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
-  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T__T.call(this, "marginRight", "marginRight");
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStyles$$anon$1", {
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MarginAuto: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$1;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2 = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2 = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2.prototype;
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
-  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T__T.call(this, "marginTop", "marginTop");
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStyles$$anon$2", {
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MarginAuto: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$2;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3 = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3 = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3.prototype;
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
-  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T__T.call(this, "marginLeft", "marginLeft");
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStyles$$anon$3", {
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$MarginAuto: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$3;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4 = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this);
-  this.$$outer$2 = null
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4 = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4.prototype;
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
-  if (($$outer === null)) {
-    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
-  } else {
-    this.$$outer$2 = $$outer
-  };
-  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T__T.call(this, "textAlignLast", "textAlignLast");
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStyles$$anon$4", {
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$TextAlign: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$4;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5 = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_Style.call(this);
-  this.$$outer$2 = null
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5 = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5.prototype;
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
-  if (($$outer === null)) {
-    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
-  } else {
-    this.$$outer$2 = $$outer
-  };
-  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T__T.call(this, "textAlign", "textAlign");
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStyles$$anon$5", {
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStyles$TextAlign: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$$anon$5;
-/** @constructor */
-var $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle = (function() {
-  $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle.call(this)
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle();
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle;
-/** @constructor */
-var $h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle = (function() {
-  /*<skip>*/
-});
-$h_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle.prototype;
-var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle: 0
-}, false, "japgolly.scalajs.react.vdom.HtmlStylesMisc$BorderStyle", {
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle: 1,
-  Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$OutlineStyle: 1,
-  Ljapgolly_scalajs_react_vdom_Style: 1,
-  O: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesMisc$BorderStyle;
-/** @constructor */
 var $c_jl_JSConsoleBasedPrintStream = (function() {
   $c_Ljava_io_PrintStream.call(this);
   this.isErr$4 = null;
@@ -9883,7 +8604,8 @@ $c_Ljapgolly_scalajs_react_vdom_ReactTag.prototype.build__p1__Ljapgolly_scalajs_
     var frag = arr.u[j];
     var i$2 = 0;
     while ((i$2 < frag.length__I())) {
-      $as_Ljapgolly_scalajs_react_vdom_TagMod(frag.apply__I__O(i$2)).applyTo__Ljapgolly_scalajs_react_vdom_Builder__V(b);
+      var this$3 = $as_Ljapgolly_scalajs_react_vdom_TagMod(frag.apply__I__O(i$2));
+      b.appendChild__Ljapgolly_scalajs_react_ReactNode__V(this$3.render__Ljapgolly_scalajs_react_ReactNode());
       i$2 = ((1 + i$2) | 0)
     }
   }
@@ -9895,8 +8617,8 @@ $c_Ljapgolly_scalajs_react_vdom_ReactTag.prototype.hashCode__I = (function() {
 $c_Ljapgolly_scalajs_react_vdom_ReactTag.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-$c_Ljapgolly_scalajs_react_vdom_ReactTag.prototype.applyTo__Ljapgolly_scalajs_react_vdom_Builder__V = (function(b) {
-  b.appendChild__Ljapgolly_scalajs_react_ReactNode__V(this.render__Ljapgolly_scalajs_react_ReactElement())
+$c_Ljapgolly_scalajs_react_vdom_ReactTag.prototype.render__Ljapgolly_scalajs_react_ReactNode = (function() {
+  return this.render__Ljapgolly_scalajs_react_ReactElement()
 });
 var $is_Ljapgolly_scalajs_react_vdom_ReactTag = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_ReactTag)))
@@ -9977,8 +8699,8 @@ $c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag.prototype.init___Ljapgol
 $c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-$c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag.prototype.applyTo__Ljapgolly_scalajs_react_vdom_Builder__V = (function(b) {
-  b.appendChild__Ljapgolly_scalajs_react_ReactNode__V(this.v$1)
+$c_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag.prototype.render__Ljapgolly_scalajs_react_ReactNode = (function() {
+  return this.v$1
 });
 var $is_Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Scalatags$ReactNodeFrag)))
@@ -11087,6 +9809,18 @@ var $d_sc_Seq = new $TypeData().initClass({
   sc_GenSeqLike: 1,
   sc_SeqLike: 1
 });
+var $is_sjs_js_ArrayOps = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sjs_js_ArrayOps)))
+});
+var $as_sjs_js_ArrayOps = (function(obj) {
+  return (($is_sjs_js_ArrayOps(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.scalajs.js.ArrayOps"))
+});
+var $isArrayOf_sjs_js_ArrayOps = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sjs_js_ArrayOps)))
+});
+var $asArrayOf_sjs_js_ArrayOps = (function(obj, depth) {
+  return (($isArrayOf_sjs_js_ArrayOps(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.scalajs.js.ArrayOps;", depth))
+});
 var $is_sc_IndexedSeq = (function(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_IndexedSeq)))
 });
@@ -11747,6 +10481,18 @@ $c_sjs_js_WrappedArray.prototype.init___sjs_js_Array = (function(array) {
 });
 $c_sjs_js_WrappedArray.prototype.stringPrefix__T = (function() {
   return "WrappedArray"
+});
+var $is_sjs_js_WrappedArray = (function(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sjs_js_WrappedArray)))
+});
+var $as_sjs_js_WrappedArray = (function(obj) {
+  return (($is_sjs_js_WrappedArray(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.scalajs.js.WrappedArray"))
+});
+var $isArrayOf_sjs_js_WrappedArray = (function(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sjs_js_WrappedArray)))
+});
+var $asArrayOf_sjs_js_WrappedArray = (function(obj, depth) {
+  return (($isArrayOf_sjs_js_WrappedArray(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.scalajs.js.WrappedArray;", depth))
 });
 var $d_sjs_js_WrappedArray = new $TypeData().initClass({
   sjs_js_WrappedArray: 0
