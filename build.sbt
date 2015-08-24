@@ -64,4 +64,4 @@ ideaExcludeFolders += ".idea_modules"
 
 bootSnippet := "reactAndScala.webapp.ReactAndScalaJS().main(document.getElementById('application');"
 
-updateBrowsers <<= updateBrowsers.triggeredBy(fastOptJS in Compile)
+refreshBrowsers <<= refreshBrowsers.triggeredBy(fastOptJS in Compile)
